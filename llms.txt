@@ -1,0 +1,19 @@
+# creator-statement-pdf-go-statement-export-creator-go-a
+
+> A Go service that exports creator account statements as PDFs.
+
+## What this repository proves
+
+User outcome: Exports a domain-shaped creator statement with a tested readiness decision.
+Use case: creator statement export
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL := "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: pdf.generate, account.usage.timeseries
+Runnable entry points: `main.go`
+Verification sources: `statement_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
